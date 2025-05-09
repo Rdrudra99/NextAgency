@@ -85,6 +85,37 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: var(--font-bricolage);
+  --font-heading: var(--font-bricolage);
+  --font-subtitle: var(--font-manrope);
+}
+
+/* Add these to your existing CSS */
+.font-bricolage {
+  font-family: var(--font-bricolage);
+}
+
+.font-bricolage-400 {
+  font-family: var(--font-bricolage);
+  font-weight: 400;
+}
+
+.font-bricolage-500 {
+  font-family: var(--font-bricolage);
+  font-weight: 500;
+}
+
+.font-bricolage-600 {
+  font-family: var(--font-bricolage);
+  font-weight: 600;
+}
+
+.font-bricolage-700 {
+  font-family: var(--font-bricolage);
+  font-weight: 700;
+}
+.font-manrope {
+  font-family: var(--font-manrope);
 }
 
 ::-webkit-scrollbar{
@@ -118,6 +149,14 @@
 
 .border-primary {
   border-color: var(--primary-color);
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 12px;
+  padding-left: 12px;
 }
 
 .dark {

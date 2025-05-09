@@ -1,5 +1,6 @@
 import React from 'react'
 import { Bricolage_Grotesque } from "next/font/google";
+import { RefreshCw } from 'lucide-react';
 
 const bricolage = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -14,14 +15,14 @@ const Hero = () => {
         data-delay="0.2"
         style={{ transform: "translate(0px, 0px)" }}
       >
-        <h3 className="border border-[#bebebe] py-2.5 px-5 rounded-3xl md:text-base md:leading-5 text-sm inline-block font-normal mb-[5px]">
-          <i className="ri-refresh-line"></i>Subscription. Pause or cancel
-          anytime
+        <h3 className="border border-[#bebebe] py-2.5 px-5 rounded-3xl md:text-base md:leading-5 text-sm inline-flex items-center gap-1.5 font-normal mb-[5px]">
+          <RefreshCw className="h-4 w-4 text-[#ff4f01]" />
+          <span>Subscription. Pause or cancel anytime</span>
         </h3>
-        <h2 className={`lg:py-2.5 py-5 font-semibold xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] ${bricolage.className} text-black-100`}>
+        <h2 className={`lg:py-2.5 py-5 font-semibold xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] font-bricolage-600 text-black`}>
           Hire Full-Service Design Agency For A Simple Monthly Fee.
         </h2>
-        <p className="text-xl leading-7 mb-[5px] px-15 text-black-100">
+        <p className="text-xl leading-7 mb-[5px] px-15 text-black">
           Create your products with top-tier designers at an affordable price.
           One subscription fee covers unlimited design requests.
         </p>

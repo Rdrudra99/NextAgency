@@ -5,22 +5,32 @@ import Logocloude from "@/components/Logocloude";
 import About from "@/components/About";
 import Workprocess from "@/components/Workprocess";
 import Service from "@/components/Service";
-
-import { Bricolage_Grotesque } from "next/font/google";
-const bricolage = Bricolage_Grotesque({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
+import Projects from "@/components/Projects";
+import Testimonials from "@/components/Testimonial";
+import Features from "@/components/Features";
+import Pricing from "@/components/Pricing";
+import Faq from "@/components/Faq";
+import Booknow from "@/components/Booknow";
+import Foooter from "@/components/Foooter";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
     <>
+      <Header />
       <Hero />
       <RecentWork />
       <Logocloude />
       <About />
       <Workprocess />
       <Service />
+      {/* <Projects /> */}
+      <Testimonials />
+      <Features />
+      <Pricing />
+      <Faq />
+      <Booknow />
+      <Foooter />
     </>
   );
 }

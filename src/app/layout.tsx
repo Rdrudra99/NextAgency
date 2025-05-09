@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
-import { Bricolage_Grotesque, Geist, Geist_Mono } from "next/font/google";
+import { Bricolage_Grotesque , Manrope } from "next/font/google";
 import "./globals.css";
 
 const bricolage = Bricolage_Grotesque({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-bricolage", // Add this line
+  variable: "--font-bricolage",
+});
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-manrope",
 });
 
 export const metadata: Metadata = {
@@ -20,9 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`antialiased w bg-[#fff6ec]`}
-      >
+      <body className={`${bricolage.variable} bg-[#fff6ec]`}>
         {children}
       </body>
     </html>

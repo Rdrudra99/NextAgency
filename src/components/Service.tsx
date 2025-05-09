@@ -19,7 +19,7 @@ const Service = () => {
             <ArrowUpRight className="text-[#ff4f01] h-4 w-4" />
             <span>Service</span>
           </h3>
-          <h2 className="xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] text-black-100 font-medium">
+          <h2 className="xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] text-black font-medium font-bricolage-500">
             Apps, websites &amp; branding
           </h2>
           <p className="md:text-xl md:leading-7 text-base mt-2">
