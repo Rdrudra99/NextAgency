@@ -12,7 +12,7 @@ const About = () => {
                         stands.</span>Twist
                     isn't just a design agency; they're your ticket to the big leagues.</h3>
                 <div className="pt-12.5 flex flex-col items-center">
-                    <img src="https://designpro-html.vercel.app/assets/images/about/founder.png" alt="founder" title="founder" className="w-20 h-20 rounded-full"/>
+                    <img src="/Rdrudra99.webp" alt="founder" title="founder" className="w-20 h-20 rounded-full"/>
                     <h2 className="pt-2.5 lg:text-3xl text-2xl text-white">Tanvir Hossain</h2>
                     <p className="text-white">Founder of Designpro</p>
                 </div>

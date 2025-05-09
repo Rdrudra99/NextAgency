@@ -76,7 +76,7 @@ const Faq: React.FC = () => {
         <div className="grid lg:grid-cols-[33.33%_auto] md:grid-cols-2 grid-cols-1 gap-6">
           <div className="p-12.5 rounded-[15px] bg-black text-center">
             <img
-              src="https://designpro-html.vercel.app/assets/images/about/founder.png"
+              src="/Rdrudra99.webp"
               alt="founder"
               title="founder"
               className="max-w-[140px] max-h-[140px] mx-auto"
@@ -93,8 +93,8 @@ const Faq: React.FC = () => {
             </a>
             <p className="text-white mt-4">
               Prefer to email?{" "}
-              <a href="mailto:hello@designpro.com" className="text-[#ff4f01]">
-                hello@designpro.com
+              <a href="mailto:rdrudra99.work@gmail.com" className="text-[#ff4f01]">
+                rdrudra99.work@gmail.com
               </a>
             </p>
           </div>
