@@ -1,5 +1,6 @@
 import React from "react";
-
+import Image from "next/image";
+import Link from "next/link";
 const Booknow = () => {
   return (
     <section id="book" className="lg:pt-25 pt-15">
@@ -29,14 +30,18 @@ const Booknow = () => {
               Book a free call
             </a>
           </div>
-          <a href="#">
-            <img
-              src="https://designpro-html.vercel.app/assets/images/logos/logo.png"
-              alt="Logo"
-              title="Logo"
-              className="max-w-[200px] mx-auto"
+          <Link href="#" className="flex justify-center items-center mt-4 space-x-1" >
+            <Image
+              src="/logo.svg"
+              alt="logo"
+              width={25}
+              height={25}
+              className="text-[#ff4f01]"
             />
-          </a>
+            <h2 className="lg:max-w-[160px] max-w-[120px] font-bricolage text-black text-3xl font-extrabold">
+              Why2Me
+            </h2>
+          </Link>
         </div>
       </div>
     </section>

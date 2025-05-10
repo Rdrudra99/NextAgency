@@ -1,15 +1,13 @@
 import { Menu } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
-
+import Why2meLogo from './reuseable/Why2meLogo'
 const Header = () => {
   return (
 <header id="header" className="fixed top-0 w-full z-50 bg-[#fff6ec] transition-all duration-500 py-5">
         <div className="container">
             <div className="flex justify-between items-center">
-                <Link href="#">
-                    <img src="https://designpro-html.vercel.app/assets/images/logos/logo.png" alt="logo" className="lg:max-w-[160px] max-w-[120px]"/>
-                </Link>
+                <Why2meLogo />
                 <div className="text-3xl mt-1 cursor-pointer block lg:hidden" id="menu-toggle">
                     <Menu className="text-[#ff4f01]"/>
                 </div>
