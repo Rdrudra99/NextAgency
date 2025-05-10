@@ -11,7 +11,7 @@ const Why2meLogo = () => {
         height={25}
         className="text-[#ff4f01]"
       />
-      <h2 className="lg:max-w-[160px] max-w-[120px] font-bricolage text-black text-3xl font-extrabold">
+      <h2 className="lg:max-w-[160px] max-w-[120px] font-bricolage text-black md:text-3xl text-xl font-extrabold">
         Why2Me
       </h2>
     </Link>
