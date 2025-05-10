@@ -47,7 +47,7 @@ const Hero = () => {
             className="lg:max-w-[300px] max-w-[70px]"
           />
         </div>
-        <div className="absolute lg:-left-[30%] top-[10%] left-0">
+        <div className="absolute lg:-left-[30%] top-[10%] left-0 hidden md:block">
           <img
             src="https://designpro-html.vercel.app/assets/images/shapes/shape2.png"
             alt="Shape"
