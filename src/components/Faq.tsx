@@ -2,6 +2,7 @@
 import { ArrowUpRight, Video, Plus, Minus } from "lucide-react";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 interface FAQItem {
   question: string;
@@ -79,18 +80,18 @@ const Faq: React.FC = () => {
               src="/Rdrudra99.webp"
               alt="founder"
               title="founder"
-              className="max-w-[140px] max-h-[140px] mx-auto"
+              className="max-w-[140px] max-h-[140px] mx-auto rounded-full"
             />
             <h2 className="text-white lg:text-[40px] text-3xl lg:leading-[1.2] py-3">
               Book a 15-minute intro call
             </h2>
-            <a
+            <Link
               href="#"
               className="btn bg-primary text-secondary border-primary hover:bg-black-200 hover:text-white flex items-center justify-center gap-2"
             >
               Book a 30-min call
               <Video className="h-5 w-5" />
-            </a>
+            </Link>
             <p className="text-white mt-4">
               Prefer to email?{" "}
               <a href="mailto:rdrudra99.work@gmail.com" className="text-[#ff4f01]">
