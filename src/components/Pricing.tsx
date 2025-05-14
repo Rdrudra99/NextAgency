@@ -10,142 +10,105 @@ const Pricing = () => {
             className="text-center pb-15 fadeInUp"
             data-delay="0.2"
             style={{
-              translate: "none",
-              rotate: "none",
-              scale: "none",
               transform: "translate(0px, 0px)",
             }}
           >
-            <h3 className="border border-[#bebebe] py-2.5 px-5 rounded-3xl md:text-base md:leading-5 text-sm inline-flex items-center gap-1.5 font-normal mb-[5px]">
+            <h3 className="border border-[#bebebe] py-2.5 px-5 rounded-3xl md:text-base text-sm inline-flex items-center gap-1.5 font-normal mb-[5px]">
               <ArrowUpRight className="text-[#ff4f01] h-4 w-4" />
               <span>Pricing</span>
             </h3>
             <h2 className="xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] text-black-100 font-medium">
-              Membership
+              Landing Page Packages
             </h2>
-            <p className="md:text-xl md:leading-7 text-base mt-2">
-              Pick the plan that suits your needs the most.
+            <p className="md:text-xl text-base mt-2">
+              Choose the service that fits your business goals.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 justify-center gap-6">
-            <div
-              className="pricing-item p-2.5 rounded-xl border border-primary fadeInUp"
-              data-delay="0.2"
-              style={{
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                transform: "translate(0px, 0px)",
-              }}
-            >
+            {/* BASIC PLAN */}
+            <div className="pricing-item p-2.5 rounded-xl border border-primary fadeInUp" data-delay="0.2">
               <div className="pricing-header p-5 border-b border-b-primary">
-                <h4 className="title px-5 py-2.5 rounded-[20px] font-medium leading-[19px] inline-block bg-black text-white">
-                  Standard
+                <h4 className="title px-5 py-2.5 rounded-[20px] font-medium inline-block bg-black text-white">
+                  Basic Plan
                 </h4>
                 <p className="price text-[38px] font-medium font-bricolage text-primary mt-5">
-                  $3,999
-                  <span className="text-base text-black-100 font-normal capitalize">
-                    /month
-                  </span>{" "}
+                  $499
                 </p>
-                <p className="save-percent text-lg leading-7 mb-5 mt-1">
-                  One request at a time. Pause or cancel anytime.
+                <p className="text-lg leading-7 mb-5 mt-1">
+                  One high-performance landing page with responsive design.
                 </p>
               </div>
               <div className="pricing-details p-5">
                 <ul className="flex flex-col gap-2.5 mb-[22px]">
-                  <li className="text-[rgb(119,119,125)] text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5 flex-shrink-0" />
-                    <span>One request at a time</span>
+                  <li className="text-primary text-lg flex items-start">
+                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />
+                    1 Landing Page (up to 6 sections)
                   </li>
-                  <li className="text-[rgb(119,119,125)] text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5 flex-shrink-0" />
-                    <span>Unlimited brands</span>
+                  <li className="text-primary text-lg flex items-start">
+                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />
+                    Responsive design + speed optimized
                   </li>
-                  <li className="text-[rgb(119,119,125)] text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5 flex-shrink-0" />
-                    <span>1-2 day revisions</span>
+                  <li className="text-primary text-lg flex items-start">
+                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />
+                    On-page SEO + modern HTML tags
                   </li>
-                  <li className="text-[rgb(119,119,125)] text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5 flex-shrink-0" />
-                    <span>Weekly sync calls</span>
-                  </li>
-                  <li className="text-[rgb(119,119,125)] text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5 flex-shrink-0" />
-                    <span>Private Slack channel</span>
-                  </li>
-                  <li className="text-[rgb(119,119,125)] text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5 flex-shrink-0" />
-                    <span>Perfect for smaller teams &amp; startups</span>
+                  <li className="text-primary text-lg flex items-start">
+                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />
+                    1 week delivery time
                   </li>
                 </ul>
                 <a
                   href="#"
                   className="btn bg-primary text-secondary border-primary hover:bg-black-200 hover:text-white flex items-center justify-center gap-2"
                 >
-                  Book a 30-min call
+                  Get a Free Quote
                   <Video className="h-5 w-5" />
                 </a>
               </div>
             </div>
 
-            <div
-              className="pricing-item p-2.5 rounded-xl border border-primary fadeInUp"
-              data-delay="0.4"
-              style={{
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                transform: "translate(0px, 0px)",
-              }}
-            >
+            {/* PRO PLAN */}
+            <div className="pricing-item p-2.5 rounded-xl border border-primary fadeInUp" data-delay="0.4">
               <div className="pricing-header p-5 border-b border-b-primary">
-                <h4 className="title px-5 py-2.5 rounded-[20px] font-medium leading-[19px] inline-block bg-primary">
-                  Premium
+                <h4 className="title px-5 py-2.5 rounded-[20px] font-medium inline-block bg-primary">
+                  Pro Plan
                 </h4>
                 <p className="price text-[38px] font-medium font-bricolage text-primary mt-5">
-                  $5,999
-                  <span className="text-base text-black-100 font-normal capitalize">
-                    /month
-                  </span>
+                  $899
                 </p>
-                <p className="save-percent text-lg leading-7 mb-5 mt-1">
-                  Double the requests. Pause or cancel anytime.
+                <p className="text-lg leading-7 mb-5 mt-1">
+                  For startups & founders who need everything handled.
                 </p>
               </div>
               <div className="pricing-details p-5">
                 <ul className="flex flex-col gap-2.5 mb-[22px]">
-                  <li className="text-[rgb(119,119,125)] text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5 flex-shrink-0" />
-                    <span>Two requests at a time</span>
+                  <li className="text-primary text-lg flex items-start">
+                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />
+                    1 Premium Landing Page (custom animation + 8+ sections)
                   </li>
-                  <li className="text-[rgb(119,119,125)] text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5 flex-shrink-0" />
-                    <span>Unlimited brands</span>
+                  <li className="text-primary text-lg flex items-start">
+                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />
+                    SEO-rich content (optional blog setup with Sanity)
                   </li>
-                  <li className="text-[rgb(119,119,125)] text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5 flex-shrink-0" />
-                    <span>Priority support &amp; delivery</span>
+                  <li className="text-primary text-lg flex items-start">
+                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />
+                    Fully branded UI components
                   </li>
-                  <li className="text-[rgb(119,119,125)] text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5 flex-shrink-0" />
-                    <span>Weekly sync calls</span>
+                  <li className="text-primary text-lg flex items-start">
+                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />
+                    Domain + deployment support
                   </li>
-                  <li className="text-[rgb(119,119,125)] text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5 flex-shrink-0" />
-                    <span>Private Slack channel</span>
-                  </li>
-                  <li className="text-[rgb(119,119,125)] text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5 flex-shrink-0" />
-                    <span>Perfect for larger teams &amp; enterprises</span>
+                  <li className="text-primary text-lg flex items-start">
+                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />
+                    5 days delivery + 1 week post-launch support
                   </li>
                 </ul>
                 <a
                   href="#"
                   className="btn bg-primary text-secondary border-primary hover:bg-black-200 hover:text-white flex items-center justify-center gap-2"
                 >
-                  Book a 30-min call
+                  Get a Free Quote
                   <Video className="h-5 w-5" />
                 </a>
               </div>
