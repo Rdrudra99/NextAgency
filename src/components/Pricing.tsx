@@ -1,4 +1,5 @@
 import { ArrowUpRight, ArrowRight, Video } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 
 const Pricing = () => {
@@ -27,13 +28,16 @@ const Pricing = () => {
 
           <div className="grid md:grid-cols-2 justify-center gap-6">
             {/* BASIC PLAN */}
-            <div className="pricing-item p-2.5 rounded-xl border border-primary fadeInUp" data-delay="0.2">
+            <div
+              className="pricing-item p-2.5 rounded-xl border border-primary fadeInUp"
+              data-delay="0.2"
+            >
               <div className="pricing-header p-5 border-b border-b-primary">
                 <h4 className="title px-5 py-2.5 rounded-[20px] font-medium inline-block bg-black text-white">
                   Basic Plan
                 </h4>
                 <p className="price text-[38px] font-medium font-bricolage text-primary mt-5">
-                  $499
+                  ₹9,999
                 </p>
                 <p className="text-lg leading-7 mb-5 mt-1">
                   One high-performance landing page with responsive design.
@@ -42,8 +46,8 @@ const Pricing = () => {
               <div className="pricing-details p-5">
                 <ul className="flex flex-col gap-2.5 mb-[22px]">
                   <li className="text-primary text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />
-                    1 Landing Page (up to 6 sections)
+                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />1 Landing
+                    Page (up to 6 sections)
                   </li>
                   <li className="text-primary text-lg flex items-start">
                     <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />
@@ -54,28 +58,31 @@ const Pricing = () => {
                     On-page SEO + modern HTML tags
                   </li>
                   <li className="text-primary text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />
-                    1 week delivery time
+                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />1 week
+                    delivery time
                   </li>
                 </ul>
-                <a
+                <Link
                   href="#"
                   className="btn bg-primary text-secondary border-primary hover:bg-black-200 hover:text-white flex items-center justify-center gap-2"
                 >
                   Get a Free Quote
                   <Video className="h-5 w-5" />
-                </a>
+                </Link>
               </div>
             </div>
 
             {/* PRO PLAN */}
-            <div className="pricing-item p-2.5 rounded-xl border border-primary fadeInUp" data-delay="0.4">
+            <div
+              className="pricing-item p-2.5 rounded-xl border border-primary fadeInUp"
+              data-delay="0.4"
+            >
               <div className="pricing-header p-5 border-b border-b-primary">
                 <h4 className="title px-5 py-2.5 rounded-[20px] font-medium inline-block bg-primary">
                   Pro Plan
                 </h4>
                 <p className="price text-[38px] font-medium font-bricolage text-primary mt-5">
-                  $899
+                  ₹19,999
                 </p>
                 <p className="text-lg leading-7 mb-5 mt-1">
                   For startups & founders who need everything handled.
@@ -84,8 +91,8 @@ const Pricing = () => {
               <div className="pricing-details p-5">
                 <ul className="flex flex-col gap-2.5 mb-[22px]">
                   <li className="text-primary text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />
-                    1 Premium Landing Page (custom animation + 8+ sections)
+                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />1 Premium
+                    Landing Page (custom animation + 8+ sections)
                   </li>
                   <li className="text-primary text-lg flex items-start">
                     <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />
@@ -100,17 +107,17 @@ const Pricing = () => {
                     Domain + deployment support
                   </li>
                   <li className="text-primary text-lg flex items-start">
-                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />
-                    5 days delivery + 1 week post-launch support
+                    <ArrowRight className="mr-2.5 h-5 w-5 mt-0.5" />5 days
+                    delivery + 1 week post-launch support
                   </li>
                 </ul>
-                <a
+                <Link
                   href="#"
                   className="btn bg-primary text-secondary border-primary hover:bg-black-200 hover:text-white flex items-center justify-center gap-2"
                 >
                   Get a Free Quote
                   <Video className="h-5 w-5" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
