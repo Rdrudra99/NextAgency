@@ -64,10 +64,10 @@ const Pricing = () => {
                 </ul>
                 <Link
                   href="#"
-                  className="btn bg-primary text-secondary border-primary hover:bg-black-200 hover:text-white flex items-center justify-center gap-2"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-primary text-secondary border border-primary hover:bg-black-200 hover:text-white shadow-[0_4px_0_0_rgba(0,0,0,0.25)] px-[34px] py-[17px] text-[16px] font-medium leading-[20px] transition-all duration-500"
                 >
-                  Get a Free Quote
-                  <Video className="h-5 w-5" />
+                  <span>Get a Free Quote</span>
+                  <Video className="w-5 h-5" />
                 </Link>
               </div>
             </div>
@@ -113,10 +113,10 @@ const Pricing = () => {
                 </ul>
                 <Link
                   href="#"
-                  className="btn bg-primary text-secondary border-primary hover:bg-black-200 hover:text-white flex items-center justify-center gap-2"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-primary text-secondary border border-primary hover:bg-black-200 hover:text-white shadow-[0_4px_0_0_rgba(0,0,0,0.25)] px-[34px] py-[17px] text-[16px] font-medium leading-[20px] transition-all duration-500"
                 >
-                  Get a Free Quote
-                  <Video className="h-5 w-5" />
+                  <span>Get a Free Quote</span>
+                  <Video className="w-5 h-5" />
                 </Link>
               </div>
             </div>

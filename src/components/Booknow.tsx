@@ -16,19 +16,18 @@ const Booknow = () => {
           }}
         >
           <h2 className="xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] text-black-100 font-normal font-bricolage-500">
-            See if DesignPro is right for you. (It totally is.)
+            Is Why2Me Right for Your Brand? (Spoiler: Yes.)
           </h2>
           <p className="md:text-xl md:leading-7 text-base mt-2">
-            Get a guided tour through DesignPro, and find out how you and your
-            team can change the way you source design, forever.
+            Get a free tech audit—we’ll show you how modern full-stack landing pages can 2X your Indian brand’s conversions
           </p>
           <div className="mt-7.5">
-            <a
-              href="#"
+            <Link
+              href="tel:+918249598763" // Replace with your actual Indian phone number (starting with +91)
               className="btn bg-primary text-secondary border-primary hover:bg-black-200 hover:text-white"
             >
               Book a free call
-            </a>
+            </Link>
           </div>
           <Link href="#" className="flex justify-center items-center mt-4 space-x-1" >
             <Image

@@ -8,7 +8,7 @@ const Foooter = () => {
             <div className="container">
                 <div className="flex lg:flex-row flex-col items-center justify-between gap-y-4">
                     <div className="copyright-text">
-                        <p>Copyright <a href="index.html" className="text-[#ff4f01]">©DesignPro</a> All Rights
+                        <p>Copyright <Link href="/" className="text-[#ff4f01]">@Why2me</Link> All Rights
                             Reserved.</p>
                     </div>
                     <ul className="flex flex-wrap justify-center gap-x-7.5 gap-y-3">

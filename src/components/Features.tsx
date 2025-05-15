@@ -1,49 +1,41 @@
-import {
-  ArrowUpRight,
-  Globe,
-  PenTool,
-  Palette,
-  DollarSign,
-  Award,
-  RefreshCw,
-} from "lucide-react";
+import { Globe, Zap, TrendingUp, Code2, CalendarCheck, IndianRupee, ArrowUpRight } from 'lucide-react';
 import React from "react";
 
 const featuresData = [
   {
     icon: <Globe className="text-[#ff4f01] mx-auto h-[50px] w-[50px]" />,
-    title: "Unlimited requests",
-    desc: "Unlimited desgin requests, prioritized by your needs",
+    title: "SEO-Optimized for India",
+    desc: "Built-in keyword research, schema markup & zero Core Web Vitals errors.",
     delay: "0.1",
   },
   {
-    icon: <PenTool className="text-[#ff4f01] mx-auto h-[50px] w-[50px]" />,
-    title: "Lightning fast",
-    desc: "Tasks delivered in just 1-2 working business days.",
+    icon: <Zap className="text-[#ff4f01] mx-auto h-[50px] w-[50px]" />,
+    title: "Blazing Fast Performance",
+    desc: "Next.js/React landing pages with 95+ Google Speed Scores.",
     delay: "0.2",
   },
   {
-    icon: <Palette className="text-[#ff4f01] mx-auto h-[50px] w-[50px]" />,
-    title: "No contracts",
-    desc: "No contracts. Cancel your subscription at any time.",
+    icon: <TrendingUp className="text-[#ff4f01] mx-auto h-[50px] w-[50px]" />,
+    title: "Conversion-First Design",
+    desc: "UX that outperforms templates (proven by A/B tests).",
     delay: "0.3",
   },
   {
-    icon: <DollarSign className="text-[#ff4f01] mx-auto h-[50px] w-[50px]" />,
-    title: "No extra Charges",
-    desc: "Just fixed monthly subscription; No extra charges or fees.",
+    icon: <Code2 className="text-[#ff4f01] mx-auto h-[50px] w-[50px]" />,
+    title: "Full-Stack Ready",
+    desc: "APIs, auth, databases? We handle backend too.",
     delay: "0.4",
   },
   {
-    icon: <Award className="text-[#ff4f01] mx-auto h-[50px] w-[50px]" />,
-    title: "Top-notch quality",
-    desc: "Access incredible design quality whenever you need it.",
+    icon: <CalendarCheck className="text-[#ff4f01] mx-auto h-[50px] w-[50px]" />,
+    title: "Fixed Timelines",
+    desc: "No endless revisions. Delivered on time, every time.",
     delay: "0.5",
   },
   {
-    icon: <RefreshCw className="text-[#ff4f01] mx-auto h-[50px] w-[50px]" />,
-    title: "Risk-free Revisions",
-    desc: "Revise until 100% satisfied without any extra cost.",
+    icon: <IndianRupee className="text-[#ff4f01] mx-auto h-[50px] w-[50px]" />,
+    title: "Transparent Pricing",
+    desc: "Flat project fees—no hourly billing surprises.",
     delay: "0.6",
   },
 ];
@@ -62,10 +54,10 @@ const Features = () => {
             <span>Features</span>
           </h3>
           <h2 className="xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] text-black font-medium">
-            Membership benefits
+            Our Tech-Powered Landing Page Features
           </h2>
           <p className="md:text-xl md:leading-7 text-base mt-2">
-            Perks so good you'll never need to go anywhere else for your design. Seriously.
+            No half-baked templates. Just custom-built landing pages designed to convert
           </p>
         </div>
 

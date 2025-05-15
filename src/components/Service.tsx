@@ -8,13 +8,13 @@ const Service = () => {
   // Animation controls for different sections
   const headerControls = useAnimation();
   const cardsControls = useAnimation();
-  
+
   // Intersection observer to detect when elements are in view
   const [headerRef, headerInView] = useInView({
     threshold: 0.2,
     triggerOnce: true,
   });
-  
+
   const [cardsRef, cardsInView] = useInView({
     threshold: 0.1,
     triggerOnce: true,
@@ -39,11 +39,11 @@ const Service = () => {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { 
-        duration: 0.6, 
-        ease: "easeOut" 
-      }
-    }
+      transition: {
+        duration: 0.6,
+        ease: "easeOut",
+      },
+    },
   };
 
   const cardVariants = {
@@ -51,12 +51,12 @@ const Service = () => {
     visible: (i: number) => ({
       opacity: 1,
       y: 0,
-      transition: { 
+      transition: {
         duration: 0.5,
         ease: "easeOut",
-        delay: i * 0.2
-      }
-    })
+        delay: i * 0.2,
+      },
+    }),
   };
 
   return (
@@ -69,7 +69,7 @@ const Service = () => {
           animate={headerControls}
           className="text-center pb-15"
         >
-          <motion.h3 
+          <motion.h3
             className="border border-[#bebebe] py-2.5 px-5 rounded-3xl md:text-base md:leading-5 text-sm inline-flex items-center gap-1.5 font-normal mb-[5px]"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
@@ -77,13 +77,13 @@ const Service = () => {
             <ArrowUpRight className="text-[#ff4f01] h-4 w-4" />
             <span>Service</span>
           </motion.h3>
-          <motion.h2 
+          <motion.h2
             className="xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] text-black font-medium font-bricolage-500"
             variants={headerVariants}
           >
             Apps, websites &amp; branding
           </motion.h2>
-          <motion.p 
+          <motion.p
             className="md:text-xl md:leading-7 text-base mt-2"
             variants={headerVariants}
           >
@@ -91,7 +91,7 @@ const Service = () => {
           </motion.p>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           ref={cardsRef}
           initial="hidden"
           animate={cardsControls}
@@ -99,25 +99,28 @@ const Service = () => {
         >
           {[
             {
-              title: "Product Design",
-              description: "Our subscription-based design service gives you access to a dedicated team.",
-              image: "https://designpro-html.vercel.app/assets/images/services/service1.jpg",
-              index: 0
+              title: "High-Converting Landing Pages",
+              description:
+                "Custom-built with React/Next.js for 2-3X better conversions than templates.",
+              image: "/service1.jpg",
+              index: 0,
             },
             {
-              title: "Graphic Design",
-              description: "Why settle for one designer when you can have a dedicated team",
-              image: "https://designpro-html.vercel.app/assets/images/services/service2.jpg",
-              index: 1
+              title: "SEO-Optimized Development",
+              description:
+                "Landing pages pre-loaded with schema markup, speed optimizations & Indian keyword targeting.",
+              image: "/service2.jpg",
+              index: 1,
             },
             {
-              title: "Marketing Design",
-              description: "How our subscription-based design service with a team",
-              image: "https://designpro-html.vercel.app/assets/images/services/service3.jpg",
-              index: 2
-            }
+              title: "Full-Stack Integration",
+              description:
+                "Add APIs, auth, or databases seamlessly—we handle frontend to backend.",
+              image: "/service3.jpg",
+              index: 2,
+            },
           ].map((service, index) => (
-            <motion.div 
+            <motion.div
               key={index}
               custom={service.index}
               variants={cardVariants}

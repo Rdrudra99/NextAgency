@@ -147,12 +147,10 @@ export default function Testimonials() {
             </span>
           </h3>
           <h2 className="xl:leading-[90px] xl:text-[80px] md:leading-[60px] md:text-[50px] leading-[50px] text-[40px] text-black font-medium font-bricolage-500">
-            the best design agency
+            Don’t Just Take Our Word For It
           </h2>
           <p className="md:text-xl md:leading-7 text-base mt-2">
-            We are a team of designers, developers, and strategists who are
-            passionate about creating beautiful and functional digital
-            experiences.
+            Jump into a quick walkthrough and see how we help startups build better landing pages that actually convert.
           </p>
         </div>
       <div className="h-full">

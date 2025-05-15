@@ -129,7 +129,7 @@ const Hero = () => {
             className="absolute lg:right-[-25%] top-1/2 right-0 hidden md:block"
           >
             <Image
-              src="https://designpro-html.vercel.app/assets/images/shapes/shape1.png"
+              src="/shape1.webp"
               alt="Shape"
               width={300}
               height={300}
@@ -146,7 +146,7 @@ const Hero = () => {
             className="absolute lg:-left-[30%] top-[10%] left-0 hidden md:block"
           >
             <Image
-              src="https://designpro-html.vercel.app/assets/images/shapes/shape2.png"
+              src="/shape2.webp"
               alt="Shape"
               width={200}
               height={200}
