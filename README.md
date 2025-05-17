@@ -1,6 +1,6 @@
 # 🚀 NextAgency - Modern Digital Agency Landing Page
 
-![NextAgency Banner](/public/Hero1.png)
+![NextAgency Banner](/public/hey.png)
 
 ## Overview
 
@@ -19,8 +19,8 @@ NextAgency is a modern, feature-rich landing page for digital agencies built wit
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="/public/Hero1.png" alt="Hero Section" width="400" />
-  <img src="/public/Hero2.png" alt="Features Section" width="400" />
+  <img src="/public/hey.png" alt="Hero Section" width="400" />
+  <img src="/public/hey2.png" alt="Features Section" width="400" />
 </div>
 
 ## 🔧 Tech Stack
