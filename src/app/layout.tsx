@@ -15,8 +15,8 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Why2me",
-  description: "Why2me is a platform that connects brands with designers to create unique and personalized designs.",
+  title: "NextAgency || Modern Agency Landing Page Template",
+  description: "NextAgency is a responsive and SEO-friendly agency landing page template featuring Sanity CMS integration for blogs. Ideal for creative agencies, startups, and freelancers looking to showcase services and publish content seamlessly.",
 };
 
 export default function RootLayout({
