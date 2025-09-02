@@ -17,6 +17,9 @@ export type Category = {
 };
 
 export type Post = {
+  publishedAt: string | number | Date;
+  category: ReactI18NextChildren | Iterable<ReactI18NextChildren>;
+  coverImage: string | Blob | undefined;
   _id: string;
   _createdAt: string;
   title: string;
