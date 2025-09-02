@@ -30,6 +30,9 @@ const Header = () => {
                             <Link href="#faqs" className="text-[#dedede] font-medium font-bricolage px-5 py-2.5 inline-block hover:text-[#ff4f01] transition-all duration-500">Faqs</Link>
                         </li>
                         <li className="border-b border-b-black lg:border-b-0">
+                            <Link href="/blog" className="text-[#dedede] font-medium font-bricolage px-5 py-2.5 inline-block hover:text-[#ff4f01] transition-all duration-500">Blog</Link>
+                        </li>
+                        <li className="border-b border-b-black lg:border-b-0">
                             <Link href="#book" className="text-[#dedede] font-medium font-bricolage px-5 py-2.5 inline-block hover:text-[#ff4f01] transition-all duration-500">Book
                                 Now</Link>
                         </li>
