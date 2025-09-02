@@ -1,12 +1,17 @@
 import { Bricolage_Grotesque } from "next/font/google";
 import Link from "next/link";
 // Font optimization
+
+
+// to 
+// define this font in one place and used this in every place bcz on every render it will load the font and it will decrease performance
 const bricolage = Bricolage_Grotesque({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   display: "swap", // Improve font loading performance
   variable: "--font-bricolage", // For CSS variable usage
 });
+
 export default function TermsAndConditions() {
     return (
         <section className={`pt-28 lg:pt-48 ${bricolage.className}`}>

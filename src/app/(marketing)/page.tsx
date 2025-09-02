@@ -9,8 +9,8 @@ import Features from "@/components/Features";
 import Pricing from "@/components/Pricing";
 import Faq from "@/components/Faq";
 import Booknow from "@/components/Booknow";
-import RecentBlogPosts from "@/components/blog/RecentBlogPosts";
-
+import OptimizedBlogSection from "@/components/blog/OptimizedBlogSection";
+// this is the page for adding components and all other things to maintain clean code 
 export default function Home() {
   return (
     <>
@@ -23,10 +23,14 @@ export default function Home() {
       {/* <Projects /> */}
       <Testimonials />
       <Features />
-      <RecentBlogPosts />
+      <OptimizedBlogSection />
       <Pricing />
       <Faq />
       <Booknow />
     </>
   );
 }
+
+
+
+

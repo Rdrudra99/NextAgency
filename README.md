@@ -102,4 +102,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-<p align="center">Made with ❤️ for modern digital agencies</p>
+<p align="center">Made with ❤️ for why2me.com/p>
